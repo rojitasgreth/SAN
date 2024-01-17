@@ -1,0 +1,428 @@
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Montserrat Alternates', sans-serif;
+		}
+
+		body{
+			background-color: #fff !important;
+			background-size: 100vw auto;
+			background-repeat: repeat-y;
+			justify-content: center;
+			min-height: 100vh;
+		}
+		img{
+			margin-left: 10%;
+			width: 950px;
+			height: 140px;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		.capa{
+			position: fixed;
+			width: 100%;
+			height: 100vh;
+			background: #f6fafb;
+			z-index: -1;
+			top: 0;left: 0;
+		}
+
+		.form-group{
+			margin-top: 165px;
+			margin-left: auto;
+			margin-right: auto;
+			width:40%;
+		}
+		/*Estilos para el encabezado*/
+		.header {
+			width: 100%;
+			height: 300px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-image: url('../img/educacion.jpg') !important;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		  }
+		  
+		  .container {
+			width: 90%;
+			max-width: 1200px;
+			margin: auto;
+		}
+		
+		.btn-menu {
+			line-height: 100px;
+		}
+		.menu-logo {
+			float: left; /* Alinea el logo a la izquierda */
+		}
+		
+		.menu-logo img {
+			width: 150px;
+			height: 150px;
+			border-radius: 50px;
+		}
+		
+		.btn-menu nav {
+			float: right; /* Alinea el menú a la derecha */
+			background-color: #fff;
+			border-radius: 30px;
+			height: 100px;
+		}
+		.btn-menu a {
+			color: #fff;
+			-webkit-text-stroke-width: 1px;
+			-webkit-text-stroke-color: #000;
+			font-size: 15px;
+			cursor: pointer;
+			display: inline-block;
+			padding: 5px;
+			line-height: normal;
+			text-decoration: none;
+			transition: all 0.3s ease;
+			border-bottom: 2px solid transparent;
+			font-size: 17px;
+			font-weight: bold;
+			margin-right: 5px;
+		}
+		.btn-menu a:hover {
+			border-bottom: 2px solid #fff;
+			padding-bottom: 5px;
+		}
+		.menu-logo {
+			float: left;
+			width: 25px;
+			height: 25px;
+		}
+		/*Fin de Estilos para el encabezado*/		
+
+		/*usuarios-gretHmar*/
+		.gestion{
+
+			background:#fff;
+			width: 40%;
+			top: 200px;
+			margin-top: 350px;
+
+		}
+
+		table {
+			background:#fff;
+			border-radius: 5px;
+		}
+
+		/*alvaro carga de notas*/
+		/* Div centrado*/
+		.seccion_menu{
+			margin-top: 250px;
+			width:40%; 
+		}
+
+		/* botones de las secciones */
+		.btn_dia{
+			background-color: #2DBDE8;
+			padding: 15px;
+			border-radius: 10px;
+			margin-left: 15px;
+			width: 120px;
+		}
+
+		.btn_noche{
+			background-color: #054e64;
+			color: #fdf9f9;
+			padding: 15px;
+			border-radius: 10px;
+			margin-left: 15px;
+			width: 120px;
+		}
+
+		/*plantilla estudiantil (Daniel)*/
+
+		.botonpa{
+			min-height: 70vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		.boton{
+			display: flex;
+			flex-direction: column;    
+		}
+		
+		.boto{
+			text-decoration: none;
+			padding: 40px 73px;
+			font-size: 2.5rem;
+			position: relative;
+			margin: 32px;
+		}
+
+		.btn-y{
+			color: #000000;
+			
+		}
+
+		.btn-y::after, .btn-y::before{
+			border: 3px solid #039be5;
+			content: "";
+			position: absolute;
+			width: calc(100% - 6px);
+			height: calc(100% - 6px);
+			left: 0;
+			bottom: 0;
+			z-index: -1;
+			transition: transform 0.3s ease;
+		}
+
+		.btn-y:hover::after{
+			transform: translate(-5px, -5px);
+		}
+
+		.btn-y:hover::before{
+			transform: translate(5px, 5px);
+		}
+
+		
+/*inicio*/
+.cont {
+	margin: auto;
+	max-width: 900px;
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 350px;
+	display: flex;
+	justify-content: center;
+  }
+ 
+  .row{
+    width: 300px; 
+    margin: 10px; 
+    padding: 15px; 
+    border: 2px solid #9f9f9f;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    margin-right: 10px; /* Ajusta el margen derecho entre los dos cards */
+}
+
+.row p {
+	padding: 5px;
+
+}
+
+.row h1 {
+	color: #94c3d3;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #000;
+}
+ .row ul {
+	padding: 5px;
+	margin-left: 5px;
+ }
+
+ .row li {
+	margin-top: 2px;
+ }
+  .students {
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+	background-color: #87CEFA;
+	border: 2px solid #87CEFA;
+	border-radius: 10px;
+	padding: 20px;
+	color: white;
+	display: inline-block;
+  }
+  .cont .img2 {
+	max-width: 50%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+  }
+
+/*Generar Reportes (Arreglado por Daniel)*/ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caja{
+	margin: auto;
+	max-width: 1300px;
+	padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 180px;
+    justify-content: center;
+    z-index: 1000;
+	margin-top: 350px;
+}
+
+.caja .card{
+    width: 280px;
+    height: 450px;
+    overflow: hidden;
+    margin: 10px;
+    text-align: center;
+    background: #ecf0f1;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.caja .card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.caja .card > img{
+    width: 270px;
+    height: 220px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.caja .card h2{
+    font-size: 2em;
+    top: 10px;
+    color: #000;
+    border-bottom: 1px solid #3498db;
+}
+
+.caja .card p{
+    padding: 2rem;
+    font-size: 16px;
+    text-align: justify-all;
+}
+
+.caja .card a{
+    text-decoration: none;
+    color: #30336b;
+    padding: 15px;
+    border: solid 1px #30336b;
+    border-radius: 5px;
+}
+
+.caja .card a:hover{
+    transition: 1s;
+    color: #fff;
+    background: #30336b;
+}
+/**{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.content{
+    background-color: rgb(255, 252, 252);
+	border: 2px solid #94c3d3;
+    border-radius: 15px;
+    margin: 50px 195px;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    text-align: center;
+    color: #000;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.content h1{
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}*/
+/*tabla*/
+.table-user {
+	font-size: 16px;
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 200px;
+	border-collapse: collapse;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	background-color: #F7FBFF;
+  }
+  
+  .table-user th,
+  .table-user td {
+	padding: 16px 20px;
+	text-align: left;
+  }
+  
+  .table-user th {
+	background-color: #94c3d3;
+	color: #FFF;
+	text-transform: uppercase;
+  }
+  
+  .table-user tbody tr:nth-child(even) {
+	background-color: #F2F5F8;
+  }
+  
+  .table-user tbody tr:hover {
+	background-color: #DCE6EE;
+  }
+  
+  .table-user tbody td:last-child {
+	text-align: center;
+  }
+  .btn {
+	border: none;
+	border-radius: 3px;
+	padding: 8px 16px;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	
+  }
+  
+  .btn-danger {
+	background-color: #f18888;
+	color: #FFF;
+	
+  }
+  
+  .btn-danger:hover {
+	background-color: #FF6B6B;
+  }
+  .container-user {
+	margin-top: 150px;
+  }
+  .cargarNota {
+	margin-top: 250px;
+  }
+.CargarNota {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 2px solid #94c3d3;
+	text-align: left;
+  }
